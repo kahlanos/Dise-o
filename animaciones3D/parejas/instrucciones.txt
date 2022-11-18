@@ -1,0 +1,3 @@
+Se pueden clickar y que se vea k se puede(efecto al pasar poir encima).
+Al clickar la carta se da la vuelta, si es la misma que una ya levantada de quedan asi y ya no se puede clickar. 
+Si las dos no son iguales se daran la vuelta

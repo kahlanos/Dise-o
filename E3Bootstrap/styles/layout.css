@@ -1,0 +1,39 @@
+
+
+.more {
+    float: right;
+    font-style: italic;
+    color: chocolate;
+}
+
+
+h2 {
+    font-style: italic;    
+    color: rgb(43, 43, 43);
+    justify-self: left;
+}
+
+#hgroup {
+    flex-direction: column;
+}
+
+#hgroup h2 {
+    color: aliceblue;
+    font-size: small;
+    justify-self: left;
+    float: left;
+}
+
+li {
+    color: white;
+    font-style: italic;
+}
+
+#container {
+    max-width: 980px;
+    margin: auto;
+}
+
+#copyright {
+    background-color: black;
+}

@@ -1,0 +1,48 @@
+
+body {
+    background-color:#555353;
+}
+
+#main {
+    background-color:#555353;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin: 0;
+}
+
+#imagen {
+    padding: 0%;
+    text-align: center;
+}
+
+#imagen img {
+    scale: 1.1;
+}
+
+#iconos img {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    scale: 1.5;
+}
+
+#iconos p {
+    width: 150px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#texto {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#menu {
+    float: right;
+}
+

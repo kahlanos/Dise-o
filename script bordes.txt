@@ -1,0 +1,6 @@
+document.querySelectorAll("*").forEach(
+	function(elemento)
+	{
+		elemento.style.border="1px solid red"
+	}
+)

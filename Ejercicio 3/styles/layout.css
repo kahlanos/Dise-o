@@ -1,0 +1,59 @@
+
+
+/* #content {
+   
+} */
+
+.more {
+    float: right;
+
+}
+
+.more a {
+    color: #ffa600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#titulo h1, h5 {
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#menu {
+    float: right;
+}
+
+figure {
+    border: 1px;
+    border-color: darkgrey;
+    
+}
+
+p, h2 {
+    color: grey;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+
+li a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+    margin: 0;
+}
+
+#separador {
+    background-color: black;
+}
+
+#seccion {
+    padding: 0%;
+}
+
+article figure img {
+    border: 2px solid gray;
+    
+}
+

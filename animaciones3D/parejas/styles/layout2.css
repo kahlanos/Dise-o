@@ -1,0 +1,107 @@
+
+
+.baraja {
+
+    background: url("../img/fondo.jpg");
+    width: 9in;
+    margin: 0 auto;
+}
+
+.carta {
+    width: 2.5in;
+    height: 3.5in;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.girada {
+    opacity: 1;
+    transform: rotateY(180deg);
+    scale: 1.1;
+}
+
+.correcta {
+    
+}
+
+
+.carta > div {
+    width: 2.5in;
+    height: 3.5in;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+.reverso {
+    z-index: 10;
+    transition: all 0.5s;
+}
+
+.anverso {
+    z-index: 0;
+    transition: all 0.5s;
+    transform: rotateY(180deg);
+}
+
+#oven .reverso {
+    background: url("../img/revers.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#oven .anverso {
+    background: url("../img/oven.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#lotus .reverso {
+    background: url("../img/revers.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#lotus .anverso {
+    background: url("../img/Black-Lotus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cat .reverso {
+    background: url("../img/revers.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#cat .anverso {
+    background: url("../img/cat.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.carta:hover  {
+    cursor: pointer;
+    opacity: 1;
+    transform: scale(1.1);
+    
+}
+
+.carta.girada:hover  {
+    cursor: default;
+      
+}
+
+/* .carta:hover .anverso {
+    z-index: 10;
+}
+
+.carta:hover .reverso {
+    z-index: 0;
+} */

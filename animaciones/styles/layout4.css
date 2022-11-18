@@ -1,0 +1,74 @@
+
+.placa {
+    width: 746px;
+    margin: 0 auto;
+}
+
+.primero {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin: auto;
+}
+
+#ram {
+    width: 428px;
+    height: 270px;
+    top: 700px;
+    right: 0px;
+    position: absolute;
+    transition: all 5s;
+}
+
+#ram:hover {
+    top: 480px;
+    right: 720px;
+}
+
+#cpu {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    scale: 0.8;
+    transition: all 5s;
+}
+
+#cpu:hover {
+    top: 220px;
+    right: 720px;
+    scale: 0.3;
+    rotate: 75deg;
+}
+
+
+#fuente {
+    scale: 0.5;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    transition: all 5s;
+}
+
+#fuente:hover {
+    top: 540px;
+    left: 570px;
+    scale: 0.4;
+    rotate: -20deg;
+}
+
+#grafica {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    transition: all 5s;
+}
+
+#grafica:hover {
+    top: 90px;
+    left: 420px;
+    rotate: -68deg;
+    scale: 0.7;
+}

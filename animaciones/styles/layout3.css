@@ -1,0 +1,102 @@
+
+
+
+.placa {
+    width: 746px;
+    margin: 0 auto;
+}
+
+
+#ram {
+    width: 428px;
+    height: 270px;
+    /* float: right; */
+    top: 700px;
+    right: 0px;
+    position: absolute;
+}
+
+#cpu {
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    scale: 0.8;
+}
+
+.primero {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.content {
+    margin: auto;
+}
+
+#fuente {
+    scale: 0.5;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+}
+
+#grafica {
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+.placa:hover ~ #cpu {
+    animation: mueve_cpu 5s linear ;
+    animation-fill-mode: forwards;
+}
+
+.placa:hover ~ #ram {
+    animation: mueve_ram 5s linear ;
+    animation-fill-mode: forwards;
+}
+
+.placa:hover ~ #fuente {
+    animation: mueve_fuente 5s linear ;
+    animation-fill-mode: forwards;
+}
+
+.placa:hover ~ #grafica {
+    animation: mueve_grafica 5s linear;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes mueve_cpu {
+    0% {top: -50px;
+        right: 0px;}
+    100% {top: 220px;
+        right: 610px;
+        scale: 0.3;
+        rotate: 75deg;}
+}
+
+@keyframes mueve_ram {
+    0% {top: 700px;
+        right: 0px;}
+    100% {top: 480px;
+        right: 620px;}        
+}
+
+@keyframes mueve_fuente {
+    0% {top: 650px;
+        left: 0px;}
+    100% {top: 540px;
+        left: 500px;
+        scale: 0.4;
+        rotate: -20deg;}        
+}
+
+@keyframes mueve_grafica {
+    0% {top: 50px;
+        left: 0px;}
+    100% {top: 90px;
+        left: 320px;
+        rotate: -70deg;
+        scale: 0.7;}        
+}
