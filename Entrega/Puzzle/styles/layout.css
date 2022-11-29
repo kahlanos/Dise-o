@@ -1,0 +1,31 @@
+
+.puzle {
+    position: relative;
+    margin: 0;
+    width: 450px;
+}
+
+.puzle img{
+    position: absolute;
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.puzle img:hover {
+    opacity: 1;
+}
+
+#pieza1{
+    top: 0;
+    left: 0;
+}
+
+#pieza2{
+    top: 0;
+    left: 220px;
+}
+
+#pieza3{
+    top: 222px;
+    left: 31px;
+}

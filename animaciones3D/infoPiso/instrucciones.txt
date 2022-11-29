@@ -1,0 +1,5 @@
+ejercicio info piso
+
+centrar totalmente
+que la info y las estrellas se vean (fondo blanco)
+dos imagenes distintas
