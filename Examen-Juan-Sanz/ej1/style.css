@@ -1,0 +1,54 @@
+div {
+	border: 1px solid black;
+}
+
+#mesa {
+	background-image: url('img/mesa.jpg');
+}
+
+#mantel {
+	background-image: url('img/mantel.png');
+	
+}
+
+#mesa,
+#mantel {
+	width: 600px;
+	height: 600px;
+	position: absolute;
+}
+
+.mantelito {
+	width: 250px;
+	height: 150px;
+	position: absolute;
+}
+
+.cubiertos {
+	height: 75px;
+	width: auto;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+.plato {
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	border-radius: 50%;
+	background-color: white;
+}
+
+.vaso {
+	width: 30px;
+	height: 15px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	border-radius: 50%;
+	background-color: #33ccff;
+	border: 0px;
+}

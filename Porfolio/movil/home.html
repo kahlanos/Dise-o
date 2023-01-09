@@ -22,6 +22,7 @@
     
       <nav class="navbar navbar-dark bg-dark">
         <div class="container-fluid">
+          <button><a href="home.html">JST</a></button>
           <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fa fa-plus" aria-hidden="true"></i>
           </button>
@@ -29,34 +30,68 @@
       </nav>
       <div class="collapse" id="navbarToggleExternalContent">
         <div class="bg-dark p-4">
-          <h5 class="text-white h4">Collapsed content</h5>
-          <span class="text-muted">Toggleable via the navbar brand.</span>
+          <div class="d-grid gap-2 d-md-block">
+            <a class="btn btn-secondary btn-outline-success text-white" href="about.html"role="button">About Me</a>
+            <a class="btn btn-secondary btn-outline-success text-white" href="projects.html"role="button">Projects</a>
+            <a class="btn btn-secondary btn-outline-success text-white" href="about.html"role="button">Skills</a>
+            <a class="btn btn-secondary btn-outline-success text-white" href="diw.html"role="button">DIW</a>
+          </div>
         </div>
       </div>
 
-    <div id="main" class="container-fluid flex-column">
+      <div id="contenido" class="container-fluid">
+
+        <div id="left">
+          <img src="../img/pj_placeholder.PNG" alt="">
+        </div>
+
+        <div id="right">
+          <div id="item">
+            <a href="about.html"><p>About</p></a>
+          </div>
+          <div id="item">
+            <a  href="projects.html"><p>Projects</p></a>
+          </div>
+          <div id="item">
+            <a  href="about.html"><p>Skills</p></a>
+          </div>
+          <div id="item">
+            <a  href="diw.html"><p>DIW</p></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="texto" class="col-12">
+        <h2>Web developer and designer</h2>
+        <p>Lorem fistrum se calle ustée ese pedazo de papaar papaar condemor.
+            Papaar papaar pupita torpedo caballo blanco caballo negroorl apetecan.</p>
+      </div>
+
+    <!-- <div id="main" class="container-fluid flex-column">
         <div id="content" class="content row">
             <div id="imagen" class="col-6 m-auto">
                 <img src="../img/pj_placeholder.PNG" alt="">
             </div>
             <div id="iconos" class="col-6 flex-column fl mt-4 mb-4 justify-content-center">
+
+              <a href="about.html"><div id="img-fondo">
+                <p>About</p>
+              </div></a>
+
                 <a href="about.html"><img src="../img/icono_placeholder.PNG" alt="" class="col text-center"></a>
                 <p>About</p>
                 <a href="projects.html"><img src="../img/icono_placeholder.PNG" alt="" class="col"></a>
                 <p>Projects</p>
-                <img src="../img/icono_placeholder.PNG" alt="" class="col">
+                <img href="about.html" src="../img/icono_placeholder.PNG" alt="" class="col">
                 <p>Skills</p>
-                <img src="../img/icono_placeholder.PNG" alt="" class="col">
+                <img href="diw.html" src="../img/icono_placeholder.PNG" alt="" class="col">
+                <p>DIW</p>
             </div>
             
         </div>
-        <div id="texto" class="col-12">
-            <h2>Web developer and designer</h2>
-            <p>Lorem fistrum se calle ustée ese pedazo de papaar papaar condemor.
-                Papaar papaar pupita torpedo caballo blanco caballo negroorl apetecan.</p>
-        </div>
+        
 
-    </div>
+    </div> -->
 
     
     <script src="js/jquery-3.3.1.min.js"></script>

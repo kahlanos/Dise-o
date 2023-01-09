@@ -1,0 +1,113 @@
+#main {
+    display: flex;
+    flex-direction: column;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: #362c20;
+}
+
+#header {
+    color: #000;
+    border-bottom: 1px solid #3d3d3d;
+    background-color: #3d3d3d;
+}
+
+#banner {
+    background: transparent url(../img/banner.jpg) no-repeat;   
+    justify-content: center;
+    background-size: cover;
+    border: 10px solid #DDD;
+    height: 161px;
+
+}
+
+#site_content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#sidebar_container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    width: 72%;
+}
+
+#container {
+    width: 75%;
+}
+
+
+#menu{
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0;
+    background: #2D2D2D;
+    border-top: 1px solid #3d3d3d;
+}
+
+ul#menu li {
+    display: inline-block;
+    padding: 7px;
+    
+}
+
+ul#menu li a {
+    background: #5e4237;
+    padding: 7px;    
+}
+
+ul#menu li a:hover{
+    background: #b58a7a;
+}
+
+
+#content ul li, .sidebar ul li {
+    /* background: url(../img/bullet.png) no-repeat; */
+    list-style-type: none;
+    list-style-image: url(../img/bullet.png);
+    
+}
+
+.sidebar_item{
+    border: 1px solid #ededed;
+    border-radius: 10px;
+    padding: 9px;
+    margin: 10px;
+}
+
+#footer{
+    margin: 0 21px;
+    margin-bottom: 38px;
+    height: 84px;
+    background-color: black;
+    color: white;
+}
+
+#footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 9px 0 0 0;
+    font-size: 12px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+  }

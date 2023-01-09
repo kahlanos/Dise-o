@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#menu {
+    background-color: #5995da;
+    text-align: center;
+}
+
+#cabecera {
+    background-color: #b2d6ff;
+}
+
+#articulo {
+    background-color: #d6e9fe;
+}
+
+#cita {
+    background-color: #f5cf8e;
+}
+
+#lateral {
+    background-color: #c8c6fa;
+}
+
+#pie {
+    background-color: #f09a9d;
+}
+
+.content {
+    display: flex;
+}
+
